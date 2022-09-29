@@ -57,7 +57,24 @@ const activeJobs = jobs.filter(function (job) {
 });
 const activeJobs1 = jobs.filter((job) => job.isActive);*/
 
-/*ARRAY.MAP METHOD:*/
+/*ARRAY.MAP METHOD:x
 const colors = ["red", "green", "blue"];
 const items = colors.map((color) => `<li>${color}</li>`);
-console.log(items);
+console.log(items);*/
+
+/*OBJECT DESTRUCTURING:*/
+//
+const adress = {
+  street: "",
+  city: "",
+  country: "",
+};
+
+//original
+const street1 = adress.street;
+const city1 = adress.city;
+const country1 = adress.country;
+
+//object destructuring
+const { street, city, country } = adress;
+const { street: st } = adress; //we can use an alias
