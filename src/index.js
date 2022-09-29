@@ -32,3 +32,27 @@ person.name = '';
 
 const targetMember = 'name';
 person[targetMember.value] = 'Lu';*/
+
+/*ARROW FUNTIONS:
+//original
+const square = function (number) {
+  return number * number;
+};
+console.log(square(5));
+
+//arrow function
+const square1 = (number) => number * number;
+console.log(square1(5));
+
+//
+const jobs = [
+  { id: 1, isActive: true },
+  { id: 2, isActive: true },
+  { id: 3, isActive: false },
+];
+
+//original
+const activeJobs = jobs.filter(function (job) {
+  return job.isActive;
+});
+const activeJobs1 = jobs.filter((job) => job.isActive);*/
