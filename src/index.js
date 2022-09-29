@@ -105,3 +105,27 @@ class Person {
 }
 
 const person = new Person("Lu");*/
+
+/*INHERITANCE:*/
+class Person {
+  constructor(name) {
+    this.name;
+  }
+
+  walk() {
+    console.log("walk");
+  }
+}
+
+class Teacher extends Person {
+  constructor(name, degree) {
+    super(name); //call the father constructor
+    this.degree = degree;
+  }
+
+  teach() {
+    console.log("teach");
+  }
+}
+
+const teacher = new Teacher("Lu", "MSc");
