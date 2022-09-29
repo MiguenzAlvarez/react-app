@@ -20,4 +20,15 @@ sayHello();
 //const -> only accessible in the block (cant be changed)
 const x = 1;*/
 
-/*OBJECTS:*/
+/*OBJECTS:
+
+const person = {
+    name: 'Mosh',
+    walk() {}, //function inside of an object is called method
+    talk() {}
+};
+person.talk();
+person.name = '';
+
+const targetMember = 'name';
+person[targetMember.value] = 'Lu';*/
