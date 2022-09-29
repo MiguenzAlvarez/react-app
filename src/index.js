@@ -62,7 +62,7 @@ const colors = ["red", "green", "blue"];
 const items = colors.map((color) => `<li>${color}</li>`);
 console.log(items);*/
 
-/*OBJECT DESTRUCTURING:*/
+/*OBJECT DESTRUCTURING:
 //
 const adress = {
   street: "",
@@ -77,4 +77,18 @@ const country1 = adress.country;
 
 //object destructuring
 const { street, city, country } = adress;
-const { street: st } = adress; //we can use an alias
+const { street: st } = adress; //we can use an alias*/
+
+/*SPREAD OPERATOR:*/
+const first = [1, 2, 3];
+const second = [4, 5, 6];
+
+//original
+const combined1 = first.concat(second);
+
+//sread operator
+const combined = [...first, ...second];
+const combined2 = [...first, "a", ...second, "b"]; //we can add more
+
+//clone
+const clone = [...first];
