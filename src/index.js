@@ -79,7 +79,7 @@ const country1 = adress.country;
 const { street, city, country } = adress;
 const { street: st } = adress; //we can use an alias*/
 
-/*SPREAD OPERATOR:*/
+/*SPREAD OPERATOR:
 const first = [1, 2, 3];
 const second = [4, 5, 6];
 
@@ -91,4 +91,17 @@ const combined = [...first, ...second];
 const combined2 = [...first, "a", ...second, "b"]; //we can add more
 
 //clone
-const clone = [...first];
+const clone = [...first];*/
+
+/*CLASSES:
+class Person {
+  constructor(name) {
+    this.name;
+  }
+
+  walk() {
+    console.log("walk");
+  }
+}
+
+const person = new Person("Lu");*/
