@@ -56,3 +56,8 @@ const activeJobs = jobs.filter(function (job) {
   return job.isActive;
 });
 const activeJobs1 = jobs.filter((job) => job.isActive);*/
+
+/*ARRAY.MAP METHOD:*/
+const colors = ["red", "green", "blue"];
+const items = colors.map((color) => `<li>${color}</li>`);
+console.log(items);
