@@ -106,7 +106,7 @@ class Person {
 
 const person = new Person("Lu");*/
 
-/*INHERITANCE:*/
+/*INHERITANCE:
 class Person {
   constructor(name) {
     this.name;
@@ -129,3 +129,4 @@ class Teacher extends Person {
 }
 
 const teacher = new Teacher("Lu", "MSc");
+//move to modules*/
